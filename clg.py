@@ -13,13 +13,4 @@ class   Vector_shuffle_set:
 
     def run_lcg(self,vector_len,initial_seed):
         return  self.lcg(vector_len,initial_seed)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        return  self.lcg(vector_len,initial_seed)
->>>>>>> 6992a3a (finished)
->>>>>>> origin/main
-=======
-        return  self.lcg(vector_len,initial_seed)
->>>>>>> refs/remotes/origin/main
+
