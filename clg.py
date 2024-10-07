@@ -13,4 +13,3 @@ class   Vector_shuffle_set:
 
     def run_lcg(self,vector_len,initial_seed):
         return  self.lcg(vector_len,initial_seed)
-

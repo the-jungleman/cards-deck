@@ -1,11 +1,15 @@
-from cartas import Cartas
+from cards import Cards
 from clg import Vector_shuffle_set
-from embaralhar import Embaralhar
+from shuffle import Shuffle
+import  os
 
 if __name__ == "__main__":
-    cartas = Cartas()
+    os.system("clear")
+    cards = Cards()
     vector_shuffle = Vector_shuffle_set()
-
-    embaralhar = Embaralhar()
-    resultado = embaralhar.embaralhar_cartas(cartas, vector_shuffle_set)
-    print(resultado)
+    shuffle = Shuffle()
+    print("Cartas não embaralhadas")
+    for i   in  cards.get_cards():
+        print(f"{i}",end=' ')
+    result = shuffle.shuffle_cards(cards, vector_shuffle)
+    print(result)
