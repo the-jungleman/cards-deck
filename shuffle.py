@@ -16,4 +16,8 @@ class Shuffle:
         for i in range(cards_len):
             swap_idx = random_nuns[i] % cards_len 
             cards_shuffled[i], cards_shuffled[swap_idx] = cards_shuffled[swap_idx], cards_shuffled[i]
+<<<<<<< HEAD
         return  cards_shuffled
+=======
+        return f"Cartas embaralhadas de acordo com a semente inicial:\n{cards_shuffled}"
+>>>>>>> 6992a3a (finished)
